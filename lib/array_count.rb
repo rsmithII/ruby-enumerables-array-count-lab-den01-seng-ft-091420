@@ -17,7 +17,7 @@ def count_empty_strings(array)
   counter = 0 
   
   while i < array.length do 
-    if array[i].class == String 
+    if array[i] == ""
       counter += 1 
     end
     i += 1 
