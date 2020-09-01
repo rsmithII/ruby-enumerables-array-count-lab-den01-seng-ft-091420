@@ -1,4 +1,14 @@
 def count_strings(array)
+  i = 0 
+  
+  while i < array.length do
+    return array.count
+    
+    if array[i].class == String
+      puts array
+    i += 1
+  end 
+  array
   # Return the total number of strings in the provided array using the count enumerable
 end
 
