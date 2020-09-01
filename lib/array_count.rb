@@ -7,6 +7,7 @@ def count_strings(array)
     if array[i].class == String
       return true 
       i += 1
+    end
   end 
   # Return the total number of strings in the provided array using the count enumerable
 end
