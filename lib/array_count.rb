@@ -5,7 +5,7 @@ def count_strings(array)
     
     
     if array[i].class == String
-      return array
+      return 
       i += 1
     end
   end 
