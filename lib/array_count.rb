@@ -2,7 +2,7 @@ def count_strings(array)
   i = 0 
   
   while i < array.length do
-    
+    puts array.count
     
     if array[i].class == String
       return true 
